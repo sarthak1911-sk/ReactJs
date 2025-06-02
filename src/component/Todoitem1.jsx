@@ -1,6 +1,4 @@
-export default function todoitem1() {
-  let name = "Buy Milk";
-  let date = "26/5/2025";
+function Todoitem1({ name, date }) {
   return (
     <div class="container ">
       <div class="row">
@@ -15,3 +13,4 @@ export default function todoitem1() {
     </div>
   );
 }
+export default Todoitem1;
